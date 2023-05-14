@@ -1,3 +1,4 @@
+/** @noSelfInFile */
 declare namespace gg {
   /**
    * The SDK version of the Android currently running on this device.
