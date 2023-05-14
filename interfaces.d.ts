@@ -1,3 +1,4 @@
+/** @noSelfInFile */
 declare namespace gg {
   interface MakeRequestResponseHeaders {
     [headerName: string]: {
