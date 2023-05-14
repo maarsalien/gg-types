@@ -1,0 +1,16 @@
+{
+  "name": "gg-types",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "docs": "typedoc",
+    "watch": "nodemon --watch . --exec \"npm run docs\" --ext ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typedoc": "^0.24.7"
+  }
+}
