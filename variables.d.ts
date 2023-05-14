@@ -5,22 +5,22 @@ declare namespace gg {
    * print("ANDROID_SDK_INT: " + gg.ANDROID_SDK_INT)
    * // => 27
    */
-  const ANDROID_SDK_INT: string;
+  const ANDROID_SDK_INT: string
 
   /**
    * Arm x32.
    */
-  const ASM_ARM: number;
+  const ASM_ARM: number
 
   /**
    * ARM x64.
    */
-  const ASM_ARM64: number;
+  const ASM_ARM64: number
 
   /**
    *  Thumb.
    */
-  const ASM_THUMB: number;
+  const ASM_THUMB: number
 
   /**
    * Number build of the GameGuardian.
@@ -28,7 +28,7 @@ declare namespace gg {
    * print("GG build number: " + gg.BUILD)
    * // => 5645
    */
-  const BUILD: number;
+  const BUILD: number
 
   /**
    * The absolute path to the GameGuardian specific cache directory on the filesystem.
@@ -42,12 +42,12 @@ declare namespace gg {
    * print("Cache dir: " + gg.CACHE_DIR)
    * // =>  '/data/data/catch_.me_.if_.you_.can_/cache'
    */
-  const CACHE_DIR: string;
+  const CACHE_DIR: string
 
   /**
    * Skip system libraries.
    */
-  const DUMP_SKIP_SYSTEM_LIBS: number;
+  const DUMP_SKIP_SYSTEM_LIBS: number
 
   /**
    * The absolute path to the GameGuardian specific directory on the primary shared/external storage device where the GameGuardian can place cache files it owns.
@@ -56,7 +56,7 @@ declare namespace gg {
    * @example print("External cache dir: " + gg.EXT_CACHE_DIR)
    * // => '/sdcard/Android/data/catch_.me_.if_.you_.can_/cache'
    */
-  const EXT_CACHE_DIR: string;
+  const EXT_CACHE_DIR: string
 
   /**
    * The absolute path to the directory on the primary shared/external storage device where the GameGuardian can place persistent files it owns.
@@ -65,7 +65,7 @@ declare namespace gg {
    * @example print("External files dir: " + gg.EXT_FILES_DIR)
    * // => '/sdcard/Android/data/catch_.me_.if_.you_.can_/files'
    */
-  const EXT_FILES_DIR: string;
+  const EXT_FILES_DIR: string
 
   /**
    * The primary shared/external storage directory.
@@ -76,7 +76,7 @@ declare namespace gg {
    * file?.close()
    * // => '/mnt/sdcard'
    */
-  const EXT_STORAGE: string;
+  const EXT_STORAGE: string
 
   /**
    * The path of the directory holding GameGuardian files.
@@ -86,44 +86,44 @@ declare namespace gg {
    * print("Files dir: " + gg.FILES_DIR)
    *  // => '/data/data/catch_.me_.if_.you_.can_/files'
    */
-  const FILES_DIR: string;
+  const FILES_DIR: string
 
   /**
    * Allows the value to change only within specified range.
    */
-  const FREEZE_IN_RANGE: number;
+  const FREEZE_IN_RANGE: number
 
   /**
    * Allows the value to decrease, but does not allow to increase.
    */
-  const FREEZE_MAY_DECREASE: number;
+  const FREEZE_MAY_DECREASE: number
 
   /**
    * Allows the value to increase, but does not allow to decrease.
    */
-  const FREEZE_MAY_INCREASE: number;
+  const FREEZE_MAY_INCREASE: number
 
   /**
    * Freezes the value, not allowing it to change.
    *
    * Used by default.
    */
-  const FREEZE_NORMAL: number;
+  const FREEZE_NORMAL: number
 
   /**
    * Append to list.
    */
-  const LOAD_APPEND: number;
+  const LOAD_APPEND: number
 
   /**
    * Load values.
    */
-  const LOAD_VALUES: number;
+  const LOAD_VALUES: number
 
   /**
    * Load values and freeze.
    */
-  const LOAD_VALUES_FREEZE: number;
+  const LOAD_VALUES_FREEZE: number
 
   /**
    * Package name of the GameGuardian.
@@ -131,225 +131,225 @@ declare namespace gg {
    * print("GG package: " + gg.PACKAGE)
    * // => 'catch_.me_.if_.you_.can_'
    */
-  const PACKAGE: string;
+  const PACKAGE: string
 
   /**
    * Pointer to executable memory.
    */
-  const POINTER_EXECUTABLE: number;
+  const POINTER_EXECUTABLE: number
 
   /**
    * Pointer to executable and writable memory.
    */
-  const POINTER_EXECUTABLE_WRITABLE: number;
+  const POINTER_EXECUTABLE_WRITABLE: number
 
   /**
    * Not a pointer.
    */
-  const POINTER_NO: number;
+  const POINTER_NO: number
 
   /**
    * Pointer to read-only memory.
    */
-  const POINTER_READ_ONLY: number;
+  const POINTER_READ_ONLY: number
 
   /**
    * Pointer to writable memory.
    */
-  const POINTER_WRITABLE: number;
+  const POINTER_WRITABLE: number
 
   /**
    * Pages may be executed.
    */
-  const PROT_EXEC: number;
+  const PROT_EXEC: number
 
   /**
    * Pages may not be accessed.
    */
-  const PROT_NONE: number;
+  const PROT_NONE: number
 
   /**
    * Pages may be read.
    */
-  const PROT_READ: number;
+  const PROT_READ: number
 
   /**
    * Pages may be written.
    */
-  const PROT_WRITE: number;
+  const PROT_WRITE: number
 
   /**
    * "A: Anonymous" memory region.
    */
-  const REGION_ANONYMOUS: number;
+  const REGION_ANONYMOUS: number
 
   /**
    * "As: Ashmem" memory region.
    */
-  const REGION_ASHMEM: number;
+  const REGION_ASHMEM: number
 
   /**
    * "B: Bad (dangerous)" memory region.
    */
-  const REGION_BAD: number;
+  const REGION_BAD: number
 
   /**
    * "Ca: C++ alloc" memory region.
    */
-  const REGION_C_ALLOC: number;
+  const REGION_C_ALLOC: number
 
   /**
    * "Cb: C++ .bss" memory region.
    */
-  const REGION_C_BSS: number;
+  const REGION_C_BSS: number
 
   /**
    * "Cd: C++ .data" memory region.
    */
-  const REGION_C_DATA: number;
+  const REGION_C_DATA: number
 
   /**
    * "Ch: C++ heap" memory region.
    */
-  const REGION_C_HEAP: number;
+  const REGION_C_HEAP: number
 
   /**
    * "Xa: Code app (dangerous)" memory region.
    */
-  const REGION_CODE_APP: number;
+  const REGION_CODE_APP: number
 
   /**
    * "Xs: Code system (dangerous)" memory region.
    */
-  const REGION_CODE_SYS: number;
+  const REGION_CODE_SYS: number
 
   /**
    * "J: Java" memory region.
    */
-  const REGION_JAVA: number;
+  const REGION_JAVA: number
 
   /**
    * "Jh: Java heap" memory region.
    */
-  const REGION_JAVA_HEAP: number;
+  const REGION_JAVA_HEAP: number
 
   /**
    * "O: Other (slow)" memory region.
    */
-  const REGION_OTHER: number;
+  const REGION_OTHER: number
 
   /**
    * "PS: PPSSPP" memory region.
    */
-  const REGION_PPSSPP: number;
+  const REGION_PPSSPP: number
 
   /**
    * "S: Stack" memory region.
    */
-  const REGION_STACK: number;
+  const REGION_STACK: number
 
   /**
    * "V: Video" memory region.
    */
-  const REGION_VIDEO: number;
+  const REGION_VIDEO: number
 
   /**
    * Save list as text.
    */
-  const SAVE_AS_TEXT: number;
+  const SAVE_AS_TEXT: number
 
-  const SIGN_EQUAL: number;
-  const SIGN_FUZZY_EQUAL: number;
-  const SIGN_FUZZY_GREATER: number;
-  const SIGN_FUZZY_LESS: number;
-  const SIGN_FUZZY_NOT_EQUAL: number;
-  const SIGN_GREATER_OR_EQUAL: number;
-  const SIGN_LESS_OR_EQUAL: number;
-  const SIGN_NOT_EQUAL: number;
+  const SIGN_EQUAL: number
+  const SIGN_FUZZY_EQUAL: number
+  const SIGN_FUZZY_GREATER: number
+  const SIGN_FUZZY_LESS: number
+  const SIGN_FUZZY_NOT_EQUAL: number
+  const SIGN_GREATER_OR_EQUAL: number
+  const SIGN_LESS_OR_EQUAL: number
+  const SIGN_NOT_EQUAL: number
 
   /**
    * Memory editor tab.
    */
-  const TAB_MEMORY_EDITOR: number;
+  const TAB_MEMORY_EDITOR: number
 
   /**
    * Saved list tab.
    */
-  const TAB_SAVED_LIST: number;
+  const TAB_SAVED_LIST: number
 
   /**
    * Search tab.
    */
-  const TAB_SEARCH: number;
+  const TAB_SEARCH: number
 
   /**
    * Settings tab.
    */
-  const TAB_SETTINGS: number;
+  const TAB_SETTINGS: number
 
   /**
    * Type Auto.
    */
-  const TYPE_AUTO: number;
+  const TYPE_AUTO: number
 
   /**
    * Type Byte.
    *
    * Size: 1 byte. Align: 1 byte boundary.
    */
-  const TYPE_BYTE: number;
+  const TYPE_BYTE: number
 
   /**
    * Type Double.
    *
    * Size: 8 byte. Align: 4 (x86) or 8 (ARM) byte boundary.
    */
-  const TYPE_DOUBLE: number;
+  const TYPE_DOUBLE: number
 
   /**
    * Type Dword.
    *
    * Size: 4 byte. Align: 4 byte boundary.
    */
-  const TYPE_DWORD: number;
+  const TYPE_DWORD: number
 
   /**
    * Type Float.
    *
    * Size: 4 byte. Align: 4 byte boundary.
    */
-  const TYPE_FLOAT: number;
+  const TYPE_FLOAT: number
 
   /**
    * Type Qword.
    *
    * Size: 8 byte. Align: 4 (x86) or 8 (ARM) byte boundary.
    */
-  const TYPE_QWORD: number;
+  const TYPE_QWORD: number
 
   /**
    * Type Word.
    *
    * Size: 2 byte. Align: 2 byte boundary.
    */
-  const TYPE_WORD: number;
+  const TYPE_WORD: number
 
   /**
    * Type Xor.
    *
    * Size: 4 byte. Align: 4 byte boundary.
    */
-  const TYPE_XOR: number;
+  const TYPE_XOR: number
 
   /**
    * Text version of the GameGuardian.
    * @example print("GG string version: " + gg.VERSION)
    */
-  const VERSION: string;
+  const VERSION: string
 
   /**
    * Numeric version of the GameGuardian.
    * @example print("GG numeric version: " + gg.VERSION_INT)
    */
-  const VERSION_INT: number;
+  const VERSION_INT: number
 }

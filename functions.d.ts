@@ -6,21 +6,12 @@ declare namespace gg {
    * gg.alert('Hello World!', true, false, false);
    * gg.alert('Hello World!', true);
    */
-  function alert(
-    message: string,
-    positive?: boolean,
-    negative?: boolean,
-    neutral?: boolean
-  ): number | null;
+  function alert(message: string, positive?: boolean, negative?: boolean, neutral?: boolean): number | null
 
   /**
    * Performs a GET or POST request over HTTP or HTTPS.
    *
    * The first time the function is called, the user is asked to access the Internet. Request one for each script run. If the user declines access, all subsequent calls will immediately return an error. If allowed - will be processed immediately. Permission to access must be obtained each time the script is run.
    */
-  function makeRequest(
-    url: string,
-    headers: { [key: string]: string },
-    data: string
-  ): MakeRequestResponse | string;
+  function makeRequest(url: string, headers: { [key: string]: string }, data: string): MakeRequestResponse | string
 }
