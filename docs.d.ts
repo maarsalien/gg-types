@@ -1,1 +1,2 @@
+/** @noSelfInFile */
 declare namespace gg {}
