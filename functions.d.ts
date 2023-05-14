@@ -1,3 +1,4 @@
+/** @noSelfInFile */
 declare namespace gg {
   /**
    * Displays a dialog with several buttons.
